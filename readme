@@ -1,0 +1,8 @@
+In action 4 file 
+
+set Quantity 1 for PartID R4700
+list all with Quantity 1
+
+The set command will change the database,,,however, the list all with Quantity 1 will only work if you run it seperately.
+Meaning you need to run this command again...because list only prints the structure that is current..the structure
+gets updated when you read from the file again...which should be the updated one.
